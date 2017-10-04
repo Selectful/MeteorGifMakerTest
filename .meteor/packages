@@ -11,3 +11,5 @@ meteor-gifmaker
 cfs:standard-packages
 cfs:gridfs
 raix:ui-dropped-event
+sanjo:jasmine
+velocity:html-reporter
