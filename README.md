@@ -14,5 +14,6 @@ Instructions:
 
 AddOns:
 =======
-This package uses a skeleton Meteor Project provided by Fox, gifshot, and CollectionFS <br />
+This package uses a skeleton Meteor Project provided by Fox <br>
+It uses gifshot to turn images into gifs, and CollectionFS to store the images <br />
 Testing is done with sanjo:jasmine and velocity
