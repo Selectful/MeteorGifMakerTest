@@ -14,5 +14,5 @@ Instructions:
 
 AddOns:
 =======
-This package uses a skeleton Meteor Project provided by Fox, gifshot, and CollectionFS
+This package uses a skeleton Meteor Project provided by Fox, gifshot, and CollectionFS <br />
 Testing is done with sanjo:jasmine and velocity
