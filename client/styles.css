@@ -1,0 +1,123 @@
+/* css automatically gets applied (: */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.box {
+    margin: 8px;
+    color: brown;
+    background-color:#F5F7F9;
+    padding: 20px;
+    font-size:22px;
+}
+
+#dropArea {
+    width: 660px;
+    padding: 40px 20px;
+    margin: 40px;
+    position: relative;
+    display: block;
+    background: #002D5B;
+    background-image: linear-gradient(bottom, rgba(0,0,0,0) 80%, rgba(0,0,0,0.1) 100%);
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid #c20017;
+}
+
+#upload-image {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.label-image {
+    cursor: pointer;
+}
+
+#drag-text {
+    color: white;
+    font-size: 40px;
+}
+
+#submit-button {
+    background-color: #002D5B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #5787b8;
+}
+
+#clear-button {
+    background-color: #c20017;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#clear-button:hover {
+    background-color: #F59494;
+}
+
+#submit-button:disabled, 
+#clear-button:disabled {
+    user-select: none;
+    background-color:lightgray;
+    cursor: not-allowed;
+}
+
+#milliseconds {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+ /* Media Queries */
+ 
+@media (max-width: 941px) {
+    #dropArea {
+        width: 420px;
+    }
+
+    .gifmakers {
+        width: 440px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 520px) {
+    #drag-text {
+        font-size: 30px;
+    }
+    #dropArea {
+        width: 295px;
+    }
+    .gifmakers {
+        width: 298px;
+        margin-left: 55px;
+    }
+}
+
+/* input[type="text"]:disabled {
+    background: #dddddd;
+} */
